@@ -106,7 +106,7 @@ card.addEventListener('keydown', (e) => {
 
 // --- Assembling Demo Animation ---
 // Remove SVG animation logic and implement grid staggering animation
-import { createTimeline, utils, stagger } from '../lib/anime.esm.js';
+import { createTimeline, utils, stagger } from './anime.esm.js';
 
 const gridContainer = document.querySelector('.grid-stagger');
 const cardEl = document.querySelector('.website-component-card');
